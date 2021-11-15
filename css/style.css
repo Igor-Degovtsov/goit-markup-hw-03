@@ -33,6 +33,13 @@ body {
   font-style: normal;
 }
 
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
 /*header*/
 .header-link {
   font-weight: 500;
@@ -41,9 +48,33 @@ body {
   letter-spacing: 0.02em;
   color: var(--accent-text-color);
 }
+
+.header-link:not(last child),
+.header-contact:not(last child) {
+  margin-right: 50px;
+}
+
 .header-list :hover,
 .header-list :focus {
   color: var(--active-text-color);
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-list {
+  display: flex;
+}
+
+.header-communication {
+  margin-left: auto;
 }
 
 .header .header-contact {
@@ -58,6 +89,10 @@ body {
   color: var(--active-text-color);
 }
 
+.header-contacts {
+  display: flex;
+}
+
 .header-logo {
   font-family: Raleway;
   font-weight: 700;
@@ -65,12 +100,14 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-text-color);
+  margin-right: 93px;
 }
 
 .logo-color-header {
   color: var(--active-text-color);
 }
-/*main*/
+
+/*------main-----*/
 .hero {
   background-color: #2f303a;
   font-weight: 900;
