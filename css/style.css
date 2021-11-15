@@ -277,6 +277,10 @@ body {
   flex-wrap: wrap;
 }
 
+.work-portfolio-link:nth-child(-n + 6) {
+  padding-bottom: 30px;
+}
+
 .works-title {
   font-weight: 700;
   font-size: 18px;
