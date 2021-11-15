@@ -243,6 +243,7 @@ body {
 }
 
 .work-item {
+  display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
@@ -270,6 +271,11 @@ body {
 }
 
 /*our-works*/
+
+.work-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .works-title {
   font-weight: 700;
