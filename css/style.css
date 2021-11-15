@@ -40,6 +40,11 @@ body {
   margin: 0 auto;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /*header*/
 .header {
   border-bottom: 1px solid var(--second-text-color);
@@ -87,6 +92,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   color: var(--main-text-color);
+  letter-spacing: 0.02em;
 }
 
 .header-contacts :hover,
@@ -150,6 +156,7 @@ body {
   letter-spacing: 0.03em;
   cursor: pointer;
 }
+
 /*under-hero*/
 
 .uh-title {
