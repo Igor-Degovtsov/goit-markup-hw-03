@@ -41,6 +41,10 @@ body {
 }
 
 /*header*/
+.header {
+  border-bottom: 1px solid var(--second-text-color);
+}
+
 .header-link {
   font-weight: 500;
   font-size: 14px;
@@ -61,9 +65,8 @@ body {
 .header-nav {
   display: flex;
   align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
+
 .header-container {
   display: flex;
   align-items: center;
@@ -71,6 +74,8 @@ body {
 
 .header-list {
   display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-communication {
@@ -89,6 +94,11 @@ body {
   color: var(--active-text-color);
 }
 
+.header-contact {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .header-contacts {
   display: flex;
 }
@@ -101,6 +111,8 @@ body {
   letter-spacing: 0.03em;
   color: var(--accent-text-color);
   margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .logo-color-header {
