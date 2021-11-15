@@ -277,8 +277,22 @@ body {
   flex-wrap: wrap;
 }
 
+.work-portfolio-link {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+
 .work-portfolio-link:nth-child(-n + 6) {
   padding-bottom: 30px;
+}
+
+.work-portfolio-link {
+  padding-right: 30px;
+}
+
+.work-portfolio-link:nth-child(3n) {
+  padding-right: 0px;
 }
 
 .works-title {
