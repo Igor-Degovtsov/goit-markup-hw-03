@@ -217,7 +217,8 @@ body {
 }
 
 .uh-item:not(last child),
-.uh-title:not(last child) {
+.uh-title:not(last child),
+.work-item-picture:not(last child) {
   padding-right: 30px;
 }
 
@@ -229,8 +230,19 @@ body {
   line-height: 1.16;
   letter-spacing: 0.03em;
   color: var(--accent-text-color);
+  padding-bottom: 50px;
+}
+.work-section {
+  padding-top: 0px;
 }
 
+.work-paragraph {
+  text-align: center;
+}
+
+.work-item {
+  display: flex;
+}
 /*our-works*/
 
 .works-title {
