@@ -162,7 +162,7 @@ body {
   color: var(--accent-text-color);
 }
 .hero-btn {
-  padding: 10px 32px;
+  padding: 10px 32px 10px 32px;
   min-width: 200px;
   min-height: 50px;
   color: var(--accent-text-color);
@@ -192,12 +192,21 @@ body {
 
 /*under-hero*/
 
+.uh-section {
+  display: flex;
+}
+
+.uh-list {
+  display: flex;
+}
+
 .uh-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: var(--accent-text-color);
+  padding-bottom: 10px;
 }
 
 .uh-item {
@@ -205,6 +214,11 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+}
+
+.uh-item:not(last child),
+.uh-title:not(last child) {
+  padding-right: 30px;
 }
 
 /*work*/
