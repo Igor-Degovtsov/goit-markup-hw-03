@@ -189,6 +189,7 @@ body {
   line-height: 1.62;
   letter-spacing: 0.03em;
   cursor: pointer;
+  padding: 6px 22px;
 }
 
 /*under-hero*/
@@ -242,8 +243,22 @@ body {
 }
 
 .work-item {
-  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
 }
+
+/*---work-buttons---*/
+
+.button-class {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.btn-potfolio:not(last child) {
+  padding-right: 8px;
+}
+
 /*our-works*/
 
 .works-title {
