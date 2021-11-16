@@ -272,15 +272,15 @@ body {
 
 /*our-works*/
 
-.work-portfolio {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.work-portfolio-link {
+.border-portfolio {
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
+}
+
+.work-portfolio {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .work-portfolio-link:nth-child(-n + 6) {
