@@ -301,6 +301,7 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--accent-text-color);
+  padding-top: 20px;
 }
 
 .works-item {
@@ -309,6 +310,7 @@ body {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+  padding-top: 4px;
 }
 /*team*/
 .team-list {
