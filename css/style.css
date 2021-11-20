@@ -21,6 +21,12 @@ ul {
   padding: 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 body {
   font-family: "roboto", "sans-serif";
 }
@@ -270,12 +276,6 @@ body {
 
 /*our-works*/
 
-.border-portfolio {
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-}
-
 .work-portfolio {
   display: flex;
   flex-wrap: wrap;
@@ -293,7 +293,10 @@ body {
   margin-bottom: 30px;
 }
 .description-works {
-  margin: 20px 24px;
+  padding: 20px 24px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
 
 .works-title {
